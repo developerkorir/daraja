@@ -27,6 +27,31 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'formatters': {
+        'verbose': {
+            'format': '{levelname} {asctime}  {process:d}  {message}',
+            'style': '{',
+        },
+    },
+    'handlers': {
+        'newfile': {
+            'level': 'DEBUG',
+            'class': 'logging.FileHandler',
+            'filename': './debug.log',
+            'formatter': 'verbose'
+        },
+    },
+    'loggers': {
+        '': {
+            'level': 'DEBUG',
+            'handlers': ['newfile'],
+            'propagate': True,
+        },
+    },
+}
 
 # Application definition
 
@@ -123,3 +148,13 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MPESA_API = {
+    "BIZ_SHORT_CODE": "174379",
+    "CALLBACK_URL": "https://eo3o20s5sc4h2wk.m.pipedream.net",  # TODO use ngrok
+    "CONSUMER_KEY": "WVIQEoJ7iNqkov4jzAUIA09wiNoCQMPc",
+    "CONSUMER_SECRET": "NEaesgKAC7ntFjHL",
+    "CREDENTIALS_URL": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",
+    "PAYMENT_URL": "https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest",
+    "PASS_KEY": "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
+}
