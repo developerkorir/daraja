@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-tpuni^r$ufd1*01(+ww^1$_yke5#&u$*d8^n3_#lspp@u!ged!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 LOGGING = {
     'version': 1,
@@ -151,7 +151,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MPESA_API = {
     "BIZ_SHORT_CODE": "174379",
-    "CALLBACK_URL": "https://eo3o20s5sc4h2wk.m.pipedream.net",  # TODO use ngrok
+    "CALLBACK_URL": "https://929f-102-212-11-2.ngrok-free.app/callback",  # TODO use ngrok
     "CONSUMER_KEY": "WVIQEoJ7iNqkov4jzAUIA09wiNoCQMPc",
     "CONSUMER_SECRET": "NEaesgKAC7ntFjHL",
     "CREDENTIALS_URL": "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials",

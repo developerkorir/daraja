@@ -15,3 +15,103 @@ INFO 2023-11-17 15:31:29,388  16220  D:\eMobilis Scholarship\daraja\daraja\setti
 INFO 2023-11-17 15:31:31,208  15904  Watching for file changes with StatReloader
 INFO 2023-11-17 15:32:53,064  15904  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
 INFO 2023-11-17 15:32:54,560  7960  Watching for file changes with StatReloader
+INFO 2023-11-17 15:40:11,062  7960  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 15:40:11,899  6972  Watching for file changes with StatReloader
+INFO 2023-11-17 15:41:16,903  6972  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 15:41:18,463  15520  Watching for file changes with StatReloader
+INFO 2023-11-17 15:51:52,691  15520  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 15:51:55,068  15116  Watching for file changes with StatReloader
+INFO 2023-11-17 15:53:47,901  15116  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 15:53:48,622  7916  Watching for file changes with StatReloader
+INFO 2023-11-17 15:54:39,454  7916  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 15:54:40,629  5292  Watching for file changes with StatReloader
+INFO 2023-11-17 15:54:45,111  5292  07904542302 2
+DEBUG 2023-11-17 15:54:45,113  5292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:54:48,552  5292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:54:48,558  5292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:54:49,819  5292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 400 None
+DEBUG 2023-11-17 15:54:49,821  5292  {'requestId': '31780-11480460-1', 'errorCode': '400.002.02', 'errorMessage': 'Bad Request - Invalid PhoneNumber'}
+INFO 2023-11-17 15:55:24,211  5292  254795488805 1
+DEBUG 2023-11-17 15:55:24,213  5292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:55:25,600  5292  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:55:25,603  5292  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 15:55:28,046  5292  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 15:55:28,047  5292  {'MerchantRequestID': '11041-11482493-1', 'CheckoutRequestID': 'ws_CO_17112023155722277795488805', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:07:07,001  5292  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 16:07:07,981  11576  Watching for file changes with StatReloader
+INFO 2023-11-17 16:07:38,529  11576  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 16:07:39,678  6912  Watching for file changes with StatReloader
+INFO 2023-11-17 16:07:46,643  6912  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 16:07:47,692  3496  Watching for file changes with StatReloader
+INFO 2023-11-17 16:17:48,681  3496  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 16:17:49,808  3616  Watching for file changes with StatReloader
+INFO 2023-11-17 16:18:51,431  3616  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
+INFO 2023-11-17 16:33:30,183  5976  Watching for file changes with StatReloader
+INFO 2023-11-17 16:33:43,476  5976  254795488805 1
+DEBUG 2023-11-17 16:33:43,481  5976  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:33:45,495  5976  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:33:45,507  5976  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:33:47,261  5976  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:33:47,262  5976  {'MerchantRequestID': '18122-107399063-1', 'CheckoutRequestID': 'ws_CO_17112023163649423795488805', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:33:47,262  5976  18122-107399063-1 ws_CO_17112023163649423795488805
+WARNING 2023-11-17 16:36:17,489  5976  Not Found: /favicon.ico
+WARNING 2023-11-17 16:36:36,273  5976  Forbidden (Origin checking failed - https://929f-102-212-11-2.ngrok-free.app does not match any trusted origins.): /
+WARNING 2023-11-17 16:37:10,251  5976  Forbidden (Origin checking failed - https://929f-102-212-11-2.ngrok-free.app does not match any trusted origins.): /
+INFO 2023-11-17 16:37:15,761  5976  D:\eMobilis Scholarship\daraja\main\views.py changed, reloading.
+INFO 2023-11-17 16:37:16,763  9396  Watching for file changes with StatReloader
+INFO 2023-11-17 16:37:16,911  5596  Watching for file changes with StatReloader
+INFO 2023-11-17 16:37:30,675  9396  254790454230 1
+DEBUG 2023-11-17 16:37:30,676  9396  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:37:32,525  9396  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:37:32,532  9396  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:37:34,717  9396  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:37:34,718  9396  {'MerchantRequestID': '9037-6433405-1', 'CheckoutRequestID': 'ws_CO_17112023164036758790454230', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:37:34,718  9396  9037-6433405-1 ws_CO_17112023164036758790454230
+INFO 2023-11-17 16:37:41,101  9396  254790454230 1
+DEBUG 2023-11-17 16:37:41,101  9396  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:37:42,456  9396  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:37:42,458  9396  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:37:43,833  9396  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 500 None
+DEBUG 2023-11-17 16:37:43,834  9396  {'requestId': '8662-5552916-1', 'errorCode': '500.001.1001', 'errorMessage': 'Unable to lock subscriber, a transaction is already in process for the current subscriber'}
+ERROR 2023-11-17 16:37:43,835  9396  Error with error code 500.001.1001
+INFO 2023-11-17 16:42:02,409  9396  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
+INFO 2023-11-17 16:42:03,692  1328  Watching for file changes with StatReloader
+INFO 2023-11-17 16:42:04,062  2020  Watching for file changes with StatReloader
+WARNING 2023-11-17 16:43:10,349  1328  Not Found: /favicon.ico
+INFO 2023-11-17 16:43:25,790  1328  254795488805 1
+DEBUG 2023-11-17 16:43:25,791  1328  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:43:31,261  1328  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:43:31,268  1328  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:43:33,566  1328  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:43:33,568  1328  {'MerchantRequestID': '18134-107418857-1', 'CheckoutRequestID': 'ws_CO_17112023164635352795488805', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:43:33,568  1328  18134-107418857-1 ws_CO_17112023164635352795488805
+WARNING 2023-11-17 16:43:47,266  1328  Not Found: /callback
+INFO 2023-11-17 16:51:00,748  1328  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
+INFO 2023-11-17 16:51:02,419  16492  Watching for file changes with StatReloader
+INFO 2023-11-17 16:51:03,243  12696  Watching for file changes with StatReloader
+INFO 2023-11-17 16:51:38,935  16492  254795488805 1
+DEBUG 2023-11-17 16:51:38,936  16492  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:51:40,467  16492  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:51:40,473  16492  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:51:42,163  16492  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:51:42,164  16492  {'MerchantRequestID': '85296-108337486-1', 'CheckoutRequestID': 'ws_CO_17112023165336422795488805', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:51:42,164  16492  85296-108337486-1 ws_CO_17112023165336422795488805
+INFO 2023-11-17 16:51:56,632  16492  254795488805 1
+DEBUG 2023-11-17 16:51:56,633  16492  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:51:58,846  16492  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:51:58,849  16492  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:52:02,169  16492  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 500 None
+DEBUG 2023-11-17 16:52:02,169  16492  {'requestId': '8670-5583897-1', 'errorCode': '500.001.1001', 'errorMessage': 'Unable to lock subscriber, a transaction is already in process for the current subscriber'}
+ERROR 2023-11-17 16:52:02,170  16492  Error with error code 500.001.1001
+INFO 2023-11-17 16:53:52,701  16492  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
+INFO 2023-11-17 16:53:53,276  12696  D:\eMobilis Scholarship\daraja\daraja\settings.py changed, reloading.
+INFO 2023-11-17 16:53:54,055  3612  Watching for file changes with StatReloader
+INFO 2023-11-17 16:53:54,584  7744  Watching for file changes with StatReloader
+INFO 2023-11-17 16:54:03,498  3612  254795488805 1
+DEBUG 2023-11-17 16:54:03,501  3612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:54:06,945  3612  https://sandbox.safaricom.co.ke:443 "GET /oauth/v1/generate?grant_type=client_credentials HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:54:06,951  3612  Starting new HTTPS connection (1): sandbox.safaricom.co.ke:443
+DEBUG 2023-11-17 16:54:08,840  3612  https://sandbox.safaricom.co.ke:443 "POST /mpesa/stkpush/v1/processrequest HTTP/1.1" 200 None
+DEBUG 2023-11-17 16:54:08,841  3612  {'MerchantRequestID': '9460-35631328-1', 'CheckoutRequestID': 'ws_CO_17112023165603100795488805', 'ResponseCode': '0', 'ResponseDescription': 'Success. Request accepted for processing', 'CustomerMessage': 'Success. Request accepted for processing'}
+INFO 2023-11-17 16:54:08,841  3612  9460-35631328-1 ws_CO_17112023165603100795488805
+WARNING 2023-11-17 16:54:22,189  3612  Not Found: /callback
